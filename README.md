@@ -34,16 +34,6 @@ For IS: python3 InceptionScore.py
 For FID: python3  fid_score.py folder1 folder2
 
 
-
-Link for trained models: https://www.dropbox.com/sh/68bcgc8h1eh8ud4/AADYO8mnqUmEy-f4wKSzpwR4a?dl=0
-Download the models and place it in the allocated directories
-
-
-
-Link for evaluation files with manual instructions: https://www.dropbox.com/sh/0f1605eo9gcwlxv/AABZQJrPeHmIQhiPjQflP2xMa?dl=0
-
-
-
 Code Structure
 code/main.py: the entry point for training the main module and testing ManiGAN.
 code/DCM.py: the entry point for training the DCM.
@@ -73,5 +63,5 @@ For pyTorch installation:
 conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0 $
 Replace cudatoolkit=11.0 above with the appropriate CUDA version on your machine or cpu only when installing on a machine without a GPU.
 
-Acknowledgements
+# Acknowledgements
 This code borrows heavily from the [ManiGAN](https://github.com/mrlibw/ManiGAN) repository.
