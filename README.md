@@ -5,6 +5,8 @@ This study investigated text-guided image manipulation, a task where a given ima
 In this study, we train and optimising the model, on two new datasets: TextCaps and VizWiz. Given the interesting and differing nature of both these dataset, we
 analyse the model's capabilities on both these datasets, using different approaches while improving the model's performance. For quantitative analysis, Frechet Inception Distance and Inception Score are implemented as metrics to study the model's performance.
 
+<img src="taskExample.jpg" width="940px" height="295px"/>
+
 ## Data:
 TextCaps download link: https://textvqa.org/textcaps/dataset <br>
 VizWiz dataset link: https://vizwiz.org/tasks-and-datasets/image-captioning/ <br>
