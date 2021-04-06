@@ -1,5 +1,10 @@
 # Text-Guided-Image-Manipulation-using-GANs
 
+This study investigated text-guided image manipulation, a task where a given image is modified according to a given text instruction, while preserving text irrelevant contents, to produce a newly synthesised image. This task is sophisticated and a recent recurringtask in the field of computer visions. The current state of the art model, ManiGAN, implements a Generative Adversarial Network and is trained on the COCO and Birds dataset. <br>
+
+In this study, we train and optimising the model, on two new datasets: TextCaps and VizWiz. Given the interesting and differing nature of both these dataset, we
+analyse the model's capabilities on both these datasets, using different approaches while improving the model's performance. For quantitative analysis, Frechet Inception Distance and Inception Score are implemented as metrics to study the model's performance.
+
 ## Data:
 TextCaps download link: https://textvqa.org/textcaps/dataset <br>
 VizWiz dataset link: https://vizwiz.org/tasks-and-datasets/image-captioning/ <br>
