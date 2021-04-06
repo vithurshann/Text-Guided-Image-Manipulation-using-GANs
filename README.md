@@ -1,7 +1,7 @@
 # Text-Guided-Image-Manipulation-using-GANs
 
 ## Data
-TextCaps download link: https://textvqa.org/textcaps/dataset
+TextCaps download link: https://textvqa.org/textcaps/dataset <br>
 VizWiz dataset link: https://vizwiz.org/tasks-and-datasets/image-captioning/
 Download textcaps dataset and extract the images to data/textcaps/
 Download vizwiz dataset and extract the images to data/vizwiz/
