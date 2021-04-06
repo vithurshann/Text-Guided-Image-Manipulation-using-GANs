@@ -1,6 +1,6 @@
 # Text-Guided-Image-Manipulation-using-GANs
 
-## Data
+## Data:
 TextCaps download link: https://textvqa.org/textcaps/dataset <br>
 VizWiz dataset link: https://vizwiz.org/tasks-and-datasets/image-captioning/ <br>
 Download textcaps dataset and extract the images to data/textcaps/ <br>
@@ -10,7 +10,7 @@ Download vizwiz dataset and extract the images to data/vizwiz/ <br>
 conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0 $ <br>
 Replace cudatoolkit=11.0 above with the appropriate CUDA version on your machine or cpu only when installing on a machine without a GPU. <br>
 
-## Training
+## Training:
 #### Pre-train DAMSM model
 TextCaps : python3 pretrain_DAMSM.py --cfg cfg/DAMSM/textcaps.yml --gpu 0 <br>
 VizWiz: python3 pretrain_DAMSM.py --cfg cfg/DAMSM/vizwiz --gpu 0 <br>
@@ -23,16 +23,16 @@ VizWiz: python3 main.py --cfg cfg/train_vizwiz --gpu 0 <br>
 TextCaps : python3 DCM.py --cfg cfg/train_textcaps.yml --gpu 0 <br>
 VizWiz: python3 DCM.py --cfg cfg/train_vizwiz --gpu 0 <br>
 
-## Testing
+## Testing:
 TextCaps : python3 main.py --cfg cfg/eval_textcaps.yml --gpu 0 <br>
 VizWiz: python3 main.py --cfg cfg/eval_vizwiz --gpu 0 <br>
 To generate images for all captions in the testing dataset, change B_VALIDATION to True in the eval_*.yml. <br>
 
-## Evaluation
+## Evaluation:
 For IS: python3 InceptionScore.py <br>
 For FID: python3  fid_score.py folder1 folder2 <br>
 
-## Code Structure
+## Code Structure:
 code/main.py: the entry point for training the main module and testing ManiGAN. <br>
 code/DCM.py: the entry point for training the DCM. <br>
 code/trainer.py: creates the main module networks, harnesses and reports the progress of training. <br>
