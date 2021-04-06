@@ -52,6 +52,7 @@ model_evaluation/InceptionScore.py: calculates inception score for images <br>
 model_evaluation/data_loader.py: loads the data for inception score <br>
 TextCapsFinalPreProcessing.ipynb:pre-processign results of textcaps datasets <br>
 VizWizFinalPreProcessing.ipynb:pre-processign results of Vizwiz datasets <br>
+VizwizAnalysis.ipynb: data exploration on the vizwiz dataset <br>
 VisualsForReport.ipynb: visuals generated for the report <br>
 ModelOutputToResults.ipynb: results of model output processed to text file for visuals <br>
 
