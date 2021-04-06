@@ -6,6 +6,9 @@ VizWiz dataset link: https://vizwiz.org/tasks-and-datasets/image-captioning/ <br
 Download textcaps dataset and extract the images to data/textcaps/ <br>
 Download vizwiz dataset and extract the images to data/vizwiz/ <br>
 
+## Prerequisites:
+conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0 $ <br>
+Replace cudatoolkit=11.0 above with the appropriate CUDA version on your machine or cpu only when installing on a machine without a GPU. <br>
 
 ## Training
 #### Pre-train DAMSM model
@@ -51,10 +54,6 @@ TextCapsFinalPreProcessing.ipynb:pre-processign results of textcaps datasets <br
 VizWizFinalPreProcessing.ipynb:pre-processign results of Vizwiz datasets <br>
 VisualsForReport.ipynb: visuals generated for the report <br>
 ModelOutputToResults.ipynb: results of model output processed to text file for visuals <br>
-
-## For pyTorch installation:
-conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0 $ <br>
-Replace cudatoolkit=11.0 above with the appropriate CUDA version on your machine or cpu only when installing on a machine without a GPU. <br>
 
 ## Acknowledgements
 This code borrows heavily from the [ManiGAN](https://github.com/mrlibw/ManiGAN) repository.
