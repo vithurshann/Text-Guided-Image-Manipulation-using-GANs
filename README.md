@@ -8,19 +8,19 @@ Download vizwiz dataset and extract the images to data/vizwiz/ <br>
 
 
 ## Training
-### Pre-train DAMSM model
+#### Pre-train DAMSM model
 TextCaps : python3 pretrain_DAMSM.py --cfg cfg/DAMSM/textcaps.yml --gpu 0 <br>
 VizWiz: python3 pretrain_DAMSM.py --cfg cfg/DAMSM/vizwiz --gpu 0 <br>
 
-### Main module
+#### Main module
 TextCaps : python3 main.py --cfg cfg/train_textcaps.yml --gpu 0 <br>
 VizWiz: python3 main.py --cfg cfg/train_vizwiz --gpu 0 <br>
 
-### DCM module
+#### DCM module
 TextCaps : python3 DCM.py --cfg cfg/train_textcaps.yml --gpu 0 <br>
 VizWiz: python3 DCM.py --cfg cfg/train_vizwiz --gpu 0 <br>
 
-### Testing
+## Testing
 TextCaps : python3 main.py --cfg cfg/eval_textcaps.yml --gpu 0 <br>
 VizWiz: python3 main.py --cfg cfg/eval_vizwiz --gpu 0 <br>
 To generate images for all captions in the testing dataset, change B_VALIDATION to True in the eval_*.yml. <br>
